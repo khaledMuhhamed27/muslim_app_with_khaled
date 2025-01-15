@@ -34,9 +34,7 @@ class MyApp extends StatelessWidget {
       ),
       debugShowCheckedModeBanner: false,
       initialRoute: HomeScreen.routName,
-      routes: {
-        HomeScreen.routName: (context) => HomeScreen(),
-      },
+      routes: {},
     );
   }
 }
